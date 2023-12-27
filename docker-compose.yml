@@ -1,0 +1,27 @@
+---
+version: "3.8"
+services:
+  linkedin:
+    image: naveenkalyan0000/linkedin:latest
+    ports:
+      - 81:80
+    deploy:
+      replicas: 3
+  indeed:
+    image: naveenkalyan0000/indeed:latest
+    ports:
+      - 82:80
+    deploy:
+      replicas: 3
+  internshala:
+    image: naveenkalyan0000/internshala:latest
+    ports:
+      - 83:80
+    deploy:
+      replicas: 3
+  naukri:
+    image: naveenkalyan0000/naukri:latest
+    ports:
+      - 84:80
+    deploy:
+      replicas: 3
