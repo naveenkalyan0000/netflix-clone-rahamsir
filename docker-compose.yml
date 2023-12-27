@@ -22,6 +22,6 @@ services:
   naukri:
     image: naveenkalyan0000/naukri:latest
     ports:
-      - 84:80
+      - 94:80
     deploy:
       replicas: 3
