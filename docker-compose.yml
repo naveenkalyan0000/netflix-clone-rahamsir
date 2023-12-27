@@ -4,19 +4,19 @@ services:
   linkedin:
     image: naveenkalyan0000/linkedin:latest
     ports:
-      - 81:80
+      - 91:80
     deploy:
       replicas: 3
   indeed:
     image: naveenkalyan0000/indeed:latest
     ports:
-      - 82:80
+      - 92:80
     deploy:
       replicas: 3
   internshala:
     image: naveenkalyan0000/internshala:latest
     ports:
-      - 83:80
+      - 93:80
     deploy:
       replicas: 3
   naukri:
